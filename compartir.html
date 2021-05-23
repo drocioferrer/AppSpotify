@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Spotify</title>
+    <script src="https://kit.fontawesome.com/97e81b80de.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/compartir.js" type="text/javascript"></script>
+    <script src="js/menu.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="header">
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li class="logo"><a href="index.html"><img src="img/logo.jpg" class="logo"></a></li>
+                    <li class="item"><a href="index.html">Inicio</a></li>
+                    <li class="item"><a href="buscar.html">Buscar</a></li>
+                    <li class="item"><a href="favoritos.html">Favoritos</a></li>
+                    <li class="item"><a href="historial.html">Historial</a></li>
+                    <li class="item"><a href="contacto.html">Contacto</a></li>
+                    <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <aside>
+        <img src="img/aside.PNG" class="aside">
+    </aside>
+    <main>
+        <br><h2>¡Compartí tu canción favorita con un amigo/a!</h2>
+        <br><div class="form">
+            <form action="#" id="form" method="POST" onsubmit="return false;">
+                <label for="nombre">Nombre de la canción</label><br>
+                <input type="text" id="cancion" name="cancion"/><br>
+
+                <label for="artista">Artista</label><br>
+                <input type="text" id="artista" name="artista"/><br>
+
+                <label for="emisor">Email emisor</label><br>
+                <input type="text" id="emisor" name="emisor"/><br>
+
+                <label for="destinatario">Email destinatario</label><br>
+                <input type="text" id="destinatario" name="destinatario"/><br>
+                
+                <label for="asunto">Asunto</label><br>
+                <input type="text" id="asunto" name="asunto"/><br>
+
+                <label for="mensaje">Mensaje</label><br>
+                <textarea name="mensaje" id="mensaje"></textarea><br>
+
+                <input type="submit" value="Enviar" />
+                <button id="cancelar" type="button">Cancelar</button>
+            </form>
+        </div>
+    </main>
+</body>
+<footer>
+    <div class="foot">
+        <p>Copyright 2021 &copy; Aplicación desarrollada por Rocio Ferrer</p>
+    </div>
+</footer>
+</html>

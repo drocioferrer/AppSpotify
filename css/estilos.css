@@ -1,0 +1,471 @@
+/* ESTILOS GENERALES */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Gotham, Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  nav {
+    background-color: black;
+    padding: 1px 20px;
+  }
+  ul {
+    list-style-type: none;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  .logo a:hover {
+    text-decoration: none;
+  }
+  .mail {
+    color: #04dc54;
+  }
+  
+  .menu li {
+    font-size: 16px;
+    padding: 5px 5px;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+
+.main {
+    width: 100%;
+    margin-bottom: 13%;
+}
+
+.header {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+
+.logo {
+    width:50%;
+}
+
+h1 {
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+h2 {
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+h3 {
+  margin-left: 5%;
+}
+
+strong {
+    font-size: 14px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.texto-contacto{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#form {
+	margin: 0 auto;
+	width: 70%;
+	padding: 1em;
+	border: 1px solid #CCC;
+	border-radius: 1em;
+	margin-bottom: 20px;
+}
+
+#form input[type="text"],
+#form input[type="email"],
+#form input[type="sexo"],
+#form input[type="date"],
+select{
+	padding: 5px;
+	border-radius: 2px;
+	border:1px solid #ccc;
+	width: 90%;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+textarea {
+	vertical-align: top;
+  width: 90%;
+  height: 10%;
+	margin-bottom: 10px;
+}
+
+/* FOOTER */
+.foot {
+	border: solid;
+    text-align: center;
+    color: white;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+
+.foot p {
+    padding-top: 10px;
+}
+
+/* MOVILES EN VERTICAL */
+
+form {
+    text-align: center;
+    width: 100%;
+}
+
+input[type="search"]{
+    width: 70%;
+    margin:10px;
+    padding:10px 10px;
+    border-radius:32px;
+    outline:none;
+    border:2px solid #ccd1d1;
+    background:#fff;
+    transition:all 0.5s;
+}
+input[type="search"]:focus{
+    background:#aeb6bf;
+}
+
+.btn-primary {
+    width: 34px;
+    height: 34px;
+}
+
+.aside {
+  display: none;
+}
+
+.buscador {
+  width: 80%;
+  margin-top: 5%;
+  padding-left: 15%;
+}
+
+.buscador p {
+    margin: 0%;
+}
+
+.track {
+    display: flex;    
+}
+
+.detalle {
+    text-align: left;
+    margin-left: 1%;
+    margin-top: 1%;
+    justify-content: center;
+    align-content: center;
+}
+
+.detalle p,
+.detalle strong{
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.track {
+    text-decoration: none;
+}
+
+.track:hover {
+    background-color: grey;
+}
+
+.track .strong {
+    margin: 10%;
+}
+
+form input[type="submit"]:hover,
+form input[type="button"]:hover{
+    background-color: #04dc54;
+}
+
+.button-compartir:hover,
+.button-favoritos:hover {
+    background-color: #04dc54;
+    border-radius: 20px;
+}
+
+.button-compartir,
+.button-favoritos {
+    width: 60%;
+    border-radius:32px;
+}
+
+.map { 
+    width: 100%;
+    height: 300px;
+    box-shadow: 5px 5px 5px #888;
+}
+
+.imagen-artist,
+.imagen-track {
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+.resultado {
+	width: 90%;
+    height: 95%;
+	padding: 1%;
+	border: 1px solid #CCC;
+	border-radius: 0.5em;
+	text-align: center;
+  margin: 0%
+}
+
+.resultado:hover{
+	cursor: pointer;
+	border: 1px solid;
+  box-shadow: 5px 5px 2px 1px;
+}
+
+.resultado p {
+    margin: 0%;
+}
+
+.resultados-destacadas,
+.resultados-lanzamientos,
+.resultados-track,
+.resultados-artista,
+.tracks-favoritos {
+	width: 100%;
+	flex-wrap: wrap;
+    display: flex;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.detalle-oculto {
+  display: none;
+}
+
+.encabezado-track,
+.encabezado-artista,
+.encabezado-favoritos {
+    margin-top: 5%;
+}
+
+.verMasTracks,
+.verMasArtistas {
+    margin-left: 34%;
+    background-color: #04dc54;
+    width: 30%;
+    border-radius:32px;
+}
+
+article {
+    width: 45%;
+    text-align: center;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 10%;
+    margin-left: 4%;
+    margin-right: 0%;
+}
+
+.busqueda-historial {
+  width: auto;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.buscar {
+  color: black;
+}
+
+.clave-historial {
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 5%;
+}
+
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .toggle {
+    order: 1;
+  }
+  .item.button {
+    order: 2;
+  }
+  .item {
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+  }
+  .item.active {
+    display: block;
+  }
+
+
+  /* MOVILES EN HORIZONTAL O TABLEST EN VERTICAL */
+  @media all and (min-width: 768px) {
+
+    .aside {
+      margin-top: 1%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+    .item {
+      display: block;
+      width: auto;
+    }
+    .toggle {
+      display: none;
+    }
+    .logo {
+      order: 0;
+    }
+    .item {
+      order: 1;
+    }
+    .button {
+      order: 2;
+    }
+    .menu li {
+      padding: 0px 0px;
+      text-decoration: none;
+    }
+    .menu li.button {
+      padding-right: 0;
+    }
+    .menu li .logo{
+        width: 50%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    article {
+        width: 29%;
+        text-align: center;
+        padding: 0%;
+        margin-top: 0%;
+        margin-bottom: 5%;
+        margin-left: 4%;
+        margin-right: 0%;
+        
+    }
+    .resultado {
+        width: 90%;
+        height: 100%;
+        padding: 1%;
+        border: 1px solid #CCC;
+        border-radius: 0.5em;
+        text-align: center;
+      margin: 0%
+    }
+
+    .verMasTracks,
+    .verMasArtistas {
+    margin-left: 34%;
+    background-color: #04dc54;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 40%;
+}
+}
+
+  /* TABLETS EN HORIZONTAL Y ESCRITORIOS NORMALES */
+  @media all and (min-width: 1024px) {
+
+    .aside {
+      display: block;
+    }
+    .item {
+      display: block;
+      width: auto;
+    }
+    .toggle {
+      display: none;
+    }
+    .logo {
+      order: 0;
+    }
+    .item {
+      order: 1;
+    }
+    .button {
+      order: 2;
+    }
+    .menu li {
+      padding: 15px 30px;
+      text-decoration: none;
+    }
+    .menu li.button {
+      padding-right: 0;
+    }
+    .logo {
+        width: 30%;
+    }
+    article {
+        width: 15%;
+        text-align: center;
+        padding: 0%;
+        margin-top: 0%;
+        margin-bottom: 5%;
+        margin-left: 4%;
+        margin-right: 0%;
+        
+    }
+    .resultado {
+        width: 90%;
+        height: 100%;
+        padding: 1%;
+        border: 1px solid #CCC;
+        border-radius: 0.5em;
+        text-align: center;
+      margin: 0%
+    }
+
+    .verMasTracks,
+    .verMasArtistas {
+    margin-left: 34%;
+    background-color: #04dc54;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 45%;
+    margin-top: 0%;
+}
+  }
